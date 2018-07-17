@@ -1,5 +1,3 @@
-This project uses the ChimeraTK project-template.
-
 This file descibes how to corretly use the template project.
 
 ## Concept:
@@ -46,18 +44,18 @@ merging the head of project template.
 
 - Updating/Improving the project template.
 
-Never write to the project template from one of the client projects!  If
-you have improvements or additions to the project template, check out
-the project-template repository separately, make the modifications and
-commit/push them.
-
-Be careful not to break functionality for other project which are using
-the template!
-
-After the project template is updated you can merge the changes into
-your project as described in section B).
-
-Note: For testing you might want to add your local repository of
-project-template as a remote to your project, so you don't have to push
-untested changes. Be careful that everything is pushed to github when
-you are done in order not to lose consistency of the repositories.
+  Never write to the project template from one of the client projects!  If
+  you have improvements or additions to the project template, check out
+  the project-template repository separately, make the modifications and
+  commit/push them.
+  
+  Be careful not to break functionality for other project which are using
+  the template!
+  
+  After the project template is updated you can merge the changes into
+  your project as described in section B).
+  
+  Note: For testing you might want to add your local repository of
+  project-template as a remote to your project, so you don't have to push
+  untested changes. Be careful that everything is pushed to github when
+  you are done in order not to lose consistency of the repositories.
