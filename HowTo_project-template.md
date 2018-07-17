@@ -9,8 +9,8 @@ merging the head of project template.
 
 ## Instructions:
 
-- Preparing your project to use the project template
-  1. Add the project template repository as a git remote to your project.
+### Preparing your project to use the project template
+  -  Add the project template repository as a git remote to your project.
      This only is done once for each local repository.
      ```
      $ git remote add project-template https://github.com/ChimeraTK/project-template.git
@@ -18,13 +18,13 @@ merging the head of project template.
      We intentionally use the read-only https version here. Never write
      to the project template from one of the client projects!
 
-  2. Update the remote on you hard disk so git knows what is in
+  -  Update the remote on you hard disk so git knows what is in
      project-template
      ```
      $ git remote update
      ```
 
-  3. Merge the project template master into your project
+  -  Merge the project template master into your project
      ```
      $ git merge project-template/master
      ```
@@ -32,7 +32,7 @@ merging the head of project template.
     Note: you can use the files which are provided in the cmake directory in
     your CMakeLists.txt
 
-- Getting updates of project template
+### Getting updates of project template
   ```
      $ git remote update
      $ git merge project-template/master
@@ -42,20 +42,20 @@ merging the head of project template.
   directory, you might have to repeat step 1 if the remote is not there
   (check with 'git remote show').
 
-- Updating/Improving the project template.
+### Updating/Improving the project template.
 
-  Never write to the project template from one of the client projects!  If
-  you have improvements or additions to the project template, check out
-  the project-template repository separately, make the modifications and
-  commit/push them.
+  - Never write to the project template from one of the client projects!  If
+    you have improvements or additions to the project template, check out
+    the project-template repository separately, make the modifications and
+    commit/push them.
   
-  Be careful not to break functionality for other project which are using
-  the template!
+  - Be careful not to break functionality for other project which are using
+    the template!
   
-  After the project template is updated you can merge the changes into
-  your project as described in section B).
+  - After the project template is updated you can merge the changes into
+    your project as described in the [second section](#getting-updates-of-project-template)
   
-  Note: For testing you might want to add your local repository of
-  project-template as a remote to your project, so you don't have to push
-  untested changes. Be careful that everything is pushed to github when
-  you are done in order not to lose consistency of the repositories.
+  - Note: For testing you might want to add your local repository of
+    project-template as a remote to your project, so you don't have to push
+    untested changes. Be careful that everything is pushed to github when
+    you are done in order not to lose consistency of the repositories.
