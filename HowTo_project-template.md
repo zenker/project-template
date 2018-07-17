@@ -53,7 +53,7 @@ merging the head of project template.
     the template!
   
   - After the project template is updated you can merge the changes into
-    your project as described in the [second section](#getting-updates-of-project-template)
+    your project as described in the section above. (Getting updates of project template)
   
   - Note: For testing you might want to add your local repository of
     project-template as a remote to your project, so you don't have to push
